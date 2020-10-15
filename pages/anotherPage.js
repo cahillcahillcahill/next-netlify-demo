@@ -1,28 +1,20 @@
-import Head from 'next/head'
-import Link from 'next/link'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Link from "next/link";
+import Header from "@components/Header";
+import Footer from "@components/Footer";
 
-export default function Home() {
+export default function AnotherPage() {
   return (
     <div className="container">
-      <Head>
-        <title>Next.js Demo</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main>
-        <Header title="This is a demo" />
+        <Header title="gumbo" />
         <p className="description">
-          Don't even think about it. <code>It isn't for you.</code>
+          Don't think. <code>It isn't you.</code>
         </p>
-        <Link href="/anotherPage">
-          <a>go here</a>
+        <Link href="/">
+          <a>go back</a>
         </Link>
       </main>
-
       <Footer />
-
       <style jsx>{`
         .container {
           color: blue;
@@ -64,5 +56,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
