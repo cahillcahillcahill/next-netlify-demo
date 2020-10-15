@@ -8,7 +8,7 @@ export default function AnotherPage() {
       <main>
         <Header title="gumbo" />
         <p className="description">
-          Don't think. <code>It isn't you.</code>
+          You think. <code>It is you.</code>
         </p>
         <Link href="/">
           <a>go back</a>

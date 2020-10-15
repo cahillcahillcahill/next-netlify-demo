@@ -3,7 +3,7 @@ export default function Footer() {
     <>
       <footer>
         Smelly, so smelly{' '}
-        <img src="/netliheart.svg" alt="Netlify Logo" className="logo" /> frick
+        <img src="/netliheart.svg" alt="Netlify Logo" className="logo" /> hi
         you
       </footer>
       <style jsx>{`

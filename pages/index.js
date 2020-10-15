@@ -14,7 +14,7 @@ export default function Home() {
       <main>
         <Header title="This is a demo" />
         <p className="description">
-          Don't even think about it. <code>It isn't for you.</code>
+          Don't even think about it. <code>It  for you.</code>
         </p>
         <Link href="/anotherPage">
           <a>go here</a>
