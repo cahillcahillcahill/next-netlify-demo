@@ -21,6 +21,7 @@ export default function Home() {
 
       <style jsx>{`
         .container {
+          color: blue;
           height: 100vh;
           display: flex;
           flex-direction: column;
